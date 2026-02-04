@@ -1,6 +1,8 @@
 import React,{Component} from "react";
 
 const ChildComp=(props)=>{
+
+    const {uname,usalary} = props;  //destructuring od props
     return (<div>
         <h2>This is child Component</h2>
         <div>Employee Name: <strong>{props.uname}</strong></div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-
 import ChildComp from "./ChildComp";
+import MyPureComp from "./MyPureComp";
+import MyReactMemoComp from "./MyReactMemoComp";
 
 
 class ParentComp extends Component{
@@ -22,7 +23,9 @@ class ParentComp extends Component{
             <div>Salary : <strong>{empSal}</strong></div>
             <button type="button" onClick={()=>this.updateState()}>Update State Data</button>
             <hr/>
-            <ChildComp uname={empName} usalary={empSal} updateSal={this.updateState}></ChildComp>
+            {/*<ChildComp uname={empName} usalary={empSal} updateSal={this.updateState}></ChildComp>*/}
+            <MyPureComp myname={empName}></MyPureComp>
+            <MyReactMemoComp myName={empName}></MyReactMemoComp>
             </div>
     }
 }
