@@ -4,6 +4,7 @@ import ClassComp from './component/ClassComp';
 import StateComp from './component/StateComp';
 import MethodEventComp from './component/MethodEventComp';
 import ParentComp from './component/ParentComp';
+import MyImagesComp from './component/MyImagesComp';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <FunctionComp uname="Lalith" upost="Engineer"/>
       <ClassComp ename="Stephan" epost="Student"/>
       <StateComp/>
-      <MethodEventComp/> */}
-      <ParentComp/>
+      <MethodEventComp/> 
+      <ParentComp/> */}
+      <MyImagesComp/>
     </div>
   );
 }
