@@ -1,6 +1,7 @@
 import React from "react";
 import batman from "../shared/images/Batman.jpg"
 
+
 import constData from "../shared/constant/constantfile";
 
 const MyImagesComp = () => {

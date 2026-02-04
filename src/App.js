@@ -5,6 +5,11 @@ import StateComp from './component/StateComp';
 import MethodEventComp from './component/MethodEventComp';
 import ParentComp from './component/ParentComp';
 import MyImagesComp from './component/MyImagesComp';
+import LalithComp from './Task/Task1/LalithComp';
+import FriendComp from './Task/Task2/FriendComp';
+import CounterComp from './Task/Task3/CounterComp';
+import ToggleImage from './Task/Task4/ToggleImage';
+import ChangeImage from './Task/Task5/ChangeImages';
 
 function App() {
   return (
@@ -16,8 +21,13 @@ function App() {
       <ClassComp ename="Stephan" epost="Student"/>
       <StateComp/>
       <MethodEventComp/> 
-      <ParentComp/> */}
-      <MyImagesComp/>
+      <ParentComp/> 
+      <MyImagesComp/> */}
+      <LalithComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
+      <FriendComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
+      <CounterComp/>
+      <ToggleImage/>
+      <ChangeImage/>
     </div>
   );
 }
