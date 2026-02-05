@@ -10,6 +10,9 @@ import FriendComp from './Task/Task2/FriendComp';
 import CounterComp from './Task/Task3/CounterComp';
 import ToggleImage from './Task/Task4/ToggleImage';
 import ChangeImage from './Task/Task5/ChangeImages';
+import ClickCounterComp from './component/ClickCounterComp';
+import HoverCounterComp from './component/HoverCounterComp';
+
 
 function App() {
   return (
@@ -22,12 +25,17 @@ function App() {
       <StateComp/>
       <MethodEventComp/> 
       <ParentComp/> 
-      <MyImagesComp/> */}
-      <LalithComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
-      <FriendComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
-      <CounterComp/>
-      <ToggleImage/>
-      <ChangeImage/>
+      <MyImagesComp/> 
+      //Task1: <LalithComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
+      //Task2: <FriendComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
+      //Task3: <CounterComp/>
+      //Task4: <ToggleImage/>
+      //Task5: <ChangeImage/> */}
+
+      <ClickCounterComp/>
+      <HoverCounterComp/>
+
+
     </div>
   );
 }
