@@ -25,15 +25,15 @@ function App() {
       <StateComp/>
       <MethodEventComp/> 
       <ParentComp/> 
-      <MyImagesComp/> 
+      <MyImagesComp/> 8*/}
       //Task1: <LalithComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
       //Task2: <FriendComp fname="Lalith" lname="Kishore" email="lalith.kishore@changepond.com" contact="9884545966" city="Guduvancherry"/>
       //Task3: <CounterComp/>
       //Task4: <ToggleImage/>
-      //Task5: <ChangeImage/> */}
+      //Task5: <ChangeImage/> 
 
-      <ClickCounterComp/>
-      <HoverCounterComp/>
+      {/*<ClickCounterComp/>
+      <HoverCounterComp/>*/}
 
 
     </div>

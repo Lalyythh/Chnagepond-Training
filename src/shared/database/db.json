@@ -1,0 +1,14 @@
+{
+   "poducts":[
+         {"id":1,"pname":"Laptop","price":55000,"pcompany":"HP"},
+         {"id":2,"pname":"Mouse","price":5000,"pcompany":"Dell"},
+         {"id":3,"pname":"Keyboard","price":500,"pcompany":"HP"},
+         {"id":4,"pname":"Adaptor","price":50000,"pcompany":"Sony"},
+         {"id":5,"pname":"USB","price":100,"pcompany":"Sandisk"},
+         {"id":6,"pname":"CPU","price":100000,"pcompany":"iBall"}
+   ],
+   "users":[
+    {"id":1,"uid":"admin@gmail.com","upassword":"adin@123"},
+    {"id":2,"uid":"lk@gmal.com","upassword":"lk@123"}
+   ]
+}
